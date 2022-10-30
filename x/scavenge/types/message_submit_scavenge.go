@@ -14,7 +14,7 @@ func NewMsgSubmitScavenge(creator string, solutionHash string, description strin
 		Creator:      creator,
 		SolutionHash: solutionHash,
 		Description:  description,
-		Reward:        reward,
+		Reward:       reward,
 	}
 }
 
